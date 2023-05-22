@@ -1,0 +1,81 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/036/156/original/pexels-frank-cone-3180831.jpg?1654237857");
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  color: #e7eaf6;
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+  border: 1px solid #e7eaf6;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+  padding: 10px 5px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+label {
+  color: #e7eaf6;
+}
+
+ul {
+  list-style: none;
+}
+
+.container-one {
+  display: block;
+  text-align: center;
+  color: #e7eaf6;
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+  border: 1px solid #e7eaf6;
+  border-radius: 10px;
+  width: 30%;
+  margin: auto;
+  padding: 10px 5px;
+}
+
+.container-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #e7eaf6;
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+  border: 1px solid #e7eaf6;
+  border-radius: 10px;
+  width: 30%;
+  margin: auto;
+  padding: 10px 5px;
+}
+
+.search-form {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 10px;
+  color: #e7eaf6;
+  background-color: #000000;
+}
